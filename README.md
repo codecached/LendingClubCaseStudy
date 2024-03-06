@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+>Lending Club Case Study: In this case study, I have used EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
 
 ## Table of Contents
@@ -11,38 +11,59 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Lending Club Case Study.
+- This project was done as part of excercise in upgrad program for MS and ML Certification
+- Understand the driving factors behind the loan defaults
+- Lending Club Case study loan data set is being used for this analysis
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Low and Medium: Risky loan applicants factor
+Low:
+- Higher loan amount (above 16K)
+- Higher installment amount (above 327)
+- Lower annual income (below 37K)<
+- Higher debt to income ratio (above 15%)
+- Applicant’s address state (NV, SD, AK, FL, etc.)
+- Loan issue month (Dec, May, Sep)
+
+Medium:
+- Higher interest rate (above 13%)
+- Higher revolving line utilization rate (above 58%)
+- Repayment term (5 years)
+- Loan grade & sub-grade (D to G)
+- Missing employment record
+- Loan purpose (small business, renewable energy, educational)
+- Derogatory public records (1 or 2)
+- Public bankruptcy records (1 or 2)
+
+OVERALL: Risky loan applicants factor
+- High loan amount & interest rate for lower income group 
+- High installment and longer repayment term 
+- Home ownership (other) and loan purpose (car, moving or small business)
+- Residential state and loan purpose
+- Income group and loan purpose
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Pandas
+- numpy
+- matplotlib.pyplot
+- seaborn
+- scipy
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by upgrad.com
+- https://www.upgrad.com
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@codecached] - feel free to contact me!
 
 
 <!-- Optional -->
